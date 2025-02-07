@@ -15,9 +15,9 @@ public class NumberDivisibleby5Ornot {
             }
 
             if(n%5==0){
-                System.out.println("N is divisible by 5");
+                System.out.println("N is divisible by 5 or 3");
             }else {
-                System.out.println("N is not divisible by 5");
+                System.out.println("N is not divisible by 5 or 3");
             }
         }
 
