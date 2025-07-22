@@ -21,11 +21,11 @@ public class AP2 {
             System.out.println("Enter common difference: ");
             int d = sc.nextInt();
 
-            //Optimization: This approach is more efficient since,
-            // it don't need maths formula an=a+(n-1)d
-            //we can print any AP by this below approach
-            //here we don't relay on i, instead of that we print first term (a) and simply
-            // add common difference (d)
+//            Optimization: This approach is more efficient since,
+//             it don't need maths formula an=a+(n-1)d
+//            we can print any AP by this below approach
+//            here we don't relay on i, instead of that we print first term (a) and simply
+//             add common difference (d)
 
             for (int i = 1; i <= n; i++) {
                 System.out.println(a + " ");
